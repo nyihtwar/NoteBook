@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_layout"
+        android:layout_margin="10pt"
+        >
+        <TextView
+            android:text="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle"
+            android:textSize="18sp"
+            android:textColor="@color/custromblue"/>
+        <TextView android:paddingLeft="10pt"
+            android:text="I would like to express my deepest gratitude and sincere appreciation of all the people whose guidance aids the complementation of this system."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDes"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_marginRight="10pt"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:id="@+id/ivDelete"/>
+            <ImageView
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/ivEdit"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

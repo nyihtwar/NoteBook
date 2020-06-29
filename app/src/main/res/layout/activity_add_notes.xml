@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:gravity="center"
+    tools:context=".AddNotes">
+
+    <EditText
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="enter title"
+        android:ems="15"
+        android:id="@+id/etTitle"/>
+    <EditText  android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="enter note"
+        android:ems="15"
+        android:id="@+id/etDes"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="100pt"
+        android:layout_marginLeft="50pt"
+        android:text="Add Note"
+        android:textAllCaps="false"
+        android:layout_width="50pt"
+        android:layout_height="30pt"
+        android:background="@drawable/blue_layout"
+        android:id="@+id/buAdd"
+        android:onClick="buAdd"/>
+</LinearLayout>

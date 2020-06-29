@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/custromblue</item>
+        <item name="colorPrimaryDark">@color/custromblue</item>
+        <item name="colorAccent">@color/custromblue</item>
+        <item name="android:navigationBarColor">@color/custromblue</item>
+    </style>
+
+</resources>
